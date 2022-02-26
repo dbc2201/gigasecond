@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 public class Gigasecond {
 
@@ -15,7 +16,7 @@ public class Gigasecond {
     }
 
     public LocalDateTime getDateTime() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return moment.plus(ONE_GIGA_SECOND, ChronoUnit.SECONDS);
     }
 
     private long calculateOneGigaSecond() {
