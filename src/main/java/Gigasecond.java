@@ -10,7 +10,7 @@ public class Gigasecond {
     }
 
     public Gigasecond(LocalDateTime moment) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        this.moment = moment;
     }
 
     public LocalDateTime getDateTime() {
