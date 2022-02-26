@@ -4,8 +4,8 @@ import java.time.temporal.ChronoUnit;
 
 public class Gigasecond {
 
-    private LocalDateTime moment;
     private final long ONE_GIGA_SECOND = calculateOneGigaSecond();
+    private final LocalDateTime moment;
 
     public Gigasecond(LocalDate moment) {
         this.moment = moment.atStartOfDay();
