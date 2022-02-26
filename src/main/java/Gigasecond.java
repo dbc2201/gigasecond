@@ -2,6 +2,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Gigasecond {
+
+    private LocalDateTime moment;
+
     public Gigasecond(LocalDate moment) {
         throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
     }
